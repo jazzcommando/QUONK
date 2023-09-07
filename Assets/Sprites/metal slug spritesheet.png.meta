@@ -1,0 +1,5684 @@
+fileFormatVersion: 2
+guid: 417d6fc1d3f116b4682684659f91bd73
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: metal slug spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949c3c3d6317a644baba15310e7c4867
+      internalID: -355253892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090777237b70e1d448dc676959529bf1
+      internalID: 1030493236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601f6f0808102dc4685cf1c80867f8c4
+      internalID: -2138705488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1c9437aa5e35e4fb272b3567812bd4
+      internalID: -922905224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7136bb80547c849a3632a60aa44c91
+      internalID: -115559680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04c713490cdd541ab210e399cf88c0
+      internalID: 1850872760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3217
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3e475e8dca46f49b13fc856eb3edfa
+      internalID: -2125770108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba647adee9b57cb4f81f06250c55cc77
+      internalID: 947150730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4df94a0e3e1444ba98d6420b12f87e
+      internalID: -1047874024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057befb3c9b2fea4ebe7620686d02cd5
+      internalID: -299063470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b0008846aaf154498b4922f9014538
+      internalID: -1122840686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9183180c4f4cf429cd9ca4cf5ca7ce
+      internalID: 868726108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4d97eb5945da4881490ee1b8b7417
+      internalID: 399984570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3127
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839b3543caaf1f4c958544d872ac60f
+      internalID: 1882393545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b311e7cf05bab934dbea738330523f47
+      internalID: 656067525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ede2cdd16168646ae33a74eac2e323
+      internalID: -1114219405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f24ca195d58c564fa4ab2abea7720cf
+      internalID: 1352641823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e65bb7a057a8fe45b3e8ebe72d3401c
+      internalID: -629398038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024c0f1b46b451146a41d4ca32fad963
+      internalID: 1568420617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f8b76620b00644b9a20bdeaaeef76
+      internalID: -364870271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3037
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ae77f19ce35a4eaaf43eb79c938c0
+      internalID: 1719433327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850bccc1be4e8ae488cde4d2afbdc3e0
+      internalID: -1869881335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7529b72f6bc7f5049a6de1816904f525
+      internalID: -1489743418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19397d432f37c264ea1aa318b7254ea1
+      internalID: -1049214446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46fab9f1b5353448a43a49e9db5543
+      internalID: -442014563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce66affd074fe57498dcb42ba318ede7
+      internalID: -1317116629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc01b56a6d5aa44d87e58e215c7e268
+      internalID: 1518976178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2947
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add71b8a3130ab0469ba08a8bdf54ebf
+      internalID: -850445308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb203a4ba3de2a540913b85efc51b326
+      internalID: 1145984402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdcc89118d5e754e81eeec3986dabb8
+      internalID: 2056458418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d53fd2c407c53948b7eb6611a12fe03
+      internalID: 2054787639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb778fefa15364e94f769b0a36727e
+      internalID: 1314724468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2856
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca811d02c9d08644983c96b5327ff41
+      internalID: -2046123088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726580c9a59cc994db8b222e04a54f31
+      internalID: 2129089296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2857
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b914afc53ccd42bff971c80937597
+      internalID: 1814974123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaacf272826e444b8c850a2d478aaf8
+      internalID: -1276388894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ccbaf8f1de53f4d86aee06238ab928
+      internalID: -926734041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44beb273a12b5104bad089311c9ea9d2
+      internalID: -1645084072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b403d9e15e3a0e542b2027a460fa65a2
+      internalID: -1301080106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f628f0823f46459ab7aab855362d4
+      internalID: 756333076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d93e15110ddb47a0146f10c1e24c1
+      internalID: 1822540316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2767
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4843d630a1d21ee48bfb336733a33bb0
+      internalID: 1341846949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18b15d1f8a049f448812f26a46e99b1
+      internalID: -1633499272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8158355ccc5707e48b361a988109a491
+      internalID: 854798132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44207b3a8a255e44d805050ec309c1e5
+      internalID: -980081775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660e34a6cf96f2844b644c1dd1694013
+      internalID: -423134565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5af11f004180d428a5fc02ca2c9c25
+      internalID: -290936901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c637eae9e00b5294aaac62289b29ce11
+      internalID: -321879463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2677
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b7cf0512dde145ae1b73204128aea
+      internalID: -564644574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d88ae2cf152494abe0f717e05f697b
+      internalID: -427578531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e108e004b87354a97c197f9981bf10
+      internalID: -573174213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bbdd620ad0b1c4b820980fdb866c6f
+      internalID: 1728244232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ada875e6a0184b8a20f7efe9e6a91
+      internalID: 560947194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d409def9caf7eb14fb7f69c9261e4b7e
+      internalID: 1888560964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd3b9b514578124eb9ac58487183f6c
+      internalID: -1656703533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2587
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836712b4e345fd4b9fb90a9e8cb3d3c
+      internalID: -1628872333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dfe63e2994d5349a5e88971c2c3ccf
+      internalID: 1155343450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba49c1a575403541b8f2db35fe1c79d
+      internalID: -931351494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb4e0989cb494b4f879e7d004ef80b7
+      internalID: 1028065495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8315ad70276b245b3e86b31fbee314
+      internalID: -801094156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1141163a0d8c2ca478b5a622563d5d5c
+      internalID: -541221581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5111a2c454e776945ba48c1e7f6ec9fe
+      internalID: 828405450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2497
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4fb479e703ca9489c2792ad8981bdd
+      internalID: -1509087774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ab7de2242f26478a6fdb6e400508a
+      internalID: -1381616338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e285dbe2459838e4590e187fb357b7ca
+      internalID: 439058424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71dd23c948152f4f935aacbaacd50bf
+      internalID: 2018857251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35822d5e2847d429e64713b2223c69
+      internalID: 760249830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf66c60e9cb8146971f754994c552a
+      internalID: 144412277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec47bf24a019c0418256222823b5004
+      internalID: -1552909205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2407
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50a225a998c3204988dd6010e28cc70
+      internalID: 1743039733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd512f2ea00e510438033f196977b0e4
+      internalID: -1446467438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1d721889435345b47a2db126a360c
+      internalID: 271845732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba35bad0a02db64fa5d96b318a3d8a3
+      internalID: -1877172076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c598afa0445bed4498495777382a7d9
+      internalID: 1832702356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54822996ab296d84a948827ff984bd88
+      internalID: -1509304770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a24926c2ea2c6942a2c6718eccdcf80
+      internalID: -916549259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2317
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b1ad752abca584389f1c9fb749e268
+      internalID: 199177956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374c1b3ed1773f34eaeb9f06c1ef4a7f
+      internalID: -427337120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c7496c02445d44b10b64c1fd887ae
+      internalID: -886558379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064968304ebc11743984defe588da985
+      internalID: 1621994366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a52ff412e721e4f9deceaea8fbb9bf
+      internalID: -476661470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe5ad13b3ecf2b44ba36b85a7136d8d
+      internalID: 998661074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8202d9df532f4ea7312cf27b93869
+      internalID: 2027159769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2227
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf72b5506e1f244b4a52765138b235
+      internalID: 551917100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a99874e281844b87ee6441822a26f
+      internalID: 1860351105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f014c1a616f0784fbc90670081f502b
+      internalID: 1672133111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100740d0f3526b743874703bd05fa362
+      internalID: -1090366856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5499243964f3249892587705be1b3a
+      internalID: -357347696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6f6577bc78eae44a49fa812459de94
+      internalID: 675557553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a342d56b403f09f4dac461a04c191563
+      internalID: -541156365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2137
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c733bd3cec261b408b8dd7a20ec91c5
+      internalID: -1102101274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de53cdb544e0b242aac1e14c11a1c9a
+      internalID: 1959564152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca3dc663e8ed704b8ad420056b728dc
+      internalID: 402308754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec633f3b9c8594f87de6ab5de19807
+      internalID: -1022090168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5bf43e60af2e4081afd5fcb37dbb3
+      internalID: -363049840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90bd26fdb43d4741aade82115ee10e4
+      internalID: -926874162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31a4a11d4cbcd54ab3b14dfac8f1854
+      internalID: 1082596268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2047
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4269c30f57413ea4a93d30c7226a28eb
+      internalID: 237617257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c90887c97a2ac64e8d57145388be820
+      internalID: 660101021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69467d9b3dd6bb74f9f72e9135fa697f
+      internalID: 48923437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f26543467e8c48964b8ace44690b0
+      internalID: -2071716188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd02772cd79aeed42a38970ba11ccc29
+      internalID: 1933628228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5e438f67e270c4b894a3bbea8ee547
+      internalID: -548914939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2be086ac116a74daf5ab97f3cb672c
+      internalID: 1574345916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1957
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badbb43f5be163941b6fd8764885b2d9
+      internalID: -1327272701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3805cfce5b1602d4abb68b25aa78ff11
+      internalID: 394293818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5172180d7a4a274286d937205549702
+      internalID: 312361544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b5eeb99eda1064c994b8eedfa30d17
+      internalID: 1896438398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a0af1b6daa214e9e36a0e643802fe
+      internalID: -1668212950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a8635ffc5748b4ea1149e555f98b6e
+      internalID: 1395985411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34ba02f9b827384c85d7256279e2fbe
+      internalID: 390691662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1867
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f635a4d9ad4e18a4e9f7d18c96a2adb3
+      internalID: -240946794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be4a9b0ff87d54097801942404b0d8
+      internalID: -513361370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12d30ce3fb10254f845fcfb54fdf3b8
+      internalID: -1219031188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c603d9c63985de45b23e26ff025070d
+      internalID: -225134585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cc5b72206a6bf4a957b715f601cc21
+      internalID: 179340022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c6322e4449f448bc6f2966134c6fc
+      internalID: -1773022194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cd86a4bdcf557489648c698ef26044
+      internalID: -160475186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1777
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bef54beeb42f04c9eeb00f88a19da0
+      internalID: -1602614553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f06558491687f409581e13ee8c5a7a
+      internalID: -678789164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f9f32b030c53e4b9846dfc084d25cb
+      internalID: 1241005276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2359bfcd8be6bd84dafbab3ec9e11b78
+      internalID: 746146023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ae8c151ce70514fb0356e837636148
+      internalID: -392859937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f2dda6c01ea01488d1f572335093d2
+      internalID: -636048743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1b3d248f6904547b9beacb3228c7ce
+      internalID: -537156765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1687
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2f439638df550488de3da67f072aea
+      internalID: 832786253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1ebb247f17df340b5901bc9eba508c
+      internalID: 1243630287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210c3b627a096744d89cfcd88692af8a
+      internalID: -2079617540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490dfe3fc052d5a43b1f94ff5bbd4ac4
+      internalID: 1242357674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d9ded18dde8a346b0ad50dcd65bd4a
+      internalID: 586384572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33699a4557074e84ba09b661e5b54c0d
+      internalID: -508254525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179853351503a7c48a1b7c8c3e7c6ac4
+      internalID: -1807524569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1597
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f94a9caf70a334fb18ae8498fbf332
+      internalID: 1763026638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aff422e64d18f94b9260c063f7b0da4
+      internalID: -1136834238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caad396f0a07cf143a6a64b2b35e227c
+      internalID: -1460982984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3929604202480174a81d9cf9f55c93e0
+      internalID: -1332586830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82ff5313fc75e84da0ea9bb542a3039
+      internalID: 1115128744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b60124851232418f17e97acc3e73a
+      internalID: -1396237368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01970f6799ddc4c499132f744c94c6aa
+      internalID: -2065456264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1507
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b1f39d9f8dc7d42b6561c10fb5e6f6
+      internalID: 1425081043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21474a2c7a7db154096ba67969b1f6ff
+      internalID: 1435905203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ed2eea35f48e9479f6e49a76add58b
+      internalID: -1867976857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fc30f49f8ad684088565ac1bf2cefe
+      internalID: 1267335798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2649058bb0780ba448d8cf8cae7a804e
+      internalID: 642773903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1403f96dc2a37784eaa3af9ecb0157c9
+      internalID: 1106452315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592bc4f9ed510d4db77ff845b59167a
+      internalID: -1616961270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1417
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8f964b11c95940ad9cdd2ed75cc72
+      internalID: 618650864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec92efedfca3f478e7fdec4c3cf9fd
+      internalID: -456844838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c766d59467e8429c035490d6d70b4
+      internalID: -1875960363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83dbb9a883066247a682ab86f102de8
+      internalID: -63995881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc2429bccf709a4b9b8ecc68e5fbe71
+      internalID: -734170865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0c96a10d61d04c9f4b51d101b7297
+      internalID: -309089946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c30c4d631ba948a8e30c4f617a44f
+      internalID: -2131326213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1327
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5ab7a43f2876a49b2ebf93325e227f
+      internalID: -383410525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e5ab61d14fcd4492fab3dd440b237
+      internalID: 1037633926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6885c8991382f574bbbeb6d7b984765c
+      internalID: 1886879667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9429537d523ff41a504f0af88d3937
+      internalID: -1242816556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b125eb50777ec46912c2820a6c79ee
+      internalID: -1483026102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a6fa1e86e25a24d87443f5225029d7
+      internalID: 294288668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e06c00fa1c474eaa36c1421267f69
+      internalID: -773045796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1237
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d7396bf9a98349949df645ee7aa25
+      internalID: 1026713730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b45cbe6d1f1151438a47a898dcd384e
+      internalID: -300630933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb25b13ee2061334d8b3f593971eb2df
+      internalID: -953227735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca753ac5f08f0841bc605e2d68858a6
+      internalID: 140239711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527225682cc5da645b4dd4adf7471238
+      internalID: 426439861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3d73c60f3af5459ff9cc1f2f12f75
+      internalID: 1631773196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f14d59a9b3792d49acaeeb1ffae5db4
+      internalID: -1381384372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1147
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a8bbc3749b8ae478da5044b406ab61
+      internalID: 561624692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f52567c604c6478b7851ef4c4a231
+      internalID: 1451779610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83492bfd87dee64a95e9c33970d3c7a
+      internalID: 120818904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9576d45198039489ec3629f26ce34d
+      internalID: -1453343990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f25b9f145a59244b9c9b5f091a242f
+      internalID: 1046829424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07e8ee2b49b71544a77fbbea11fe289
+      internalID: 1840598599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941e9024641f564ab0ff9abe2edc105
+      internalID: -2016302158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1057
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46cdd26b073cb343a35601333df22c3
+      internalID: -1660009939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57290e7619a95242b7f0af93b899a82
+      internalID: -2018095192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9337f997dd0dbe48b7cf0a2acd78e14
+      internalID: 1170104363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d914e14abc75ec43944e2c8fd5c64df
+      internalID: -1567300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf9a795af673d408ed8f78c731f3da
+      internalID: 194897558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e456a7dda89f35043b2869350c88ae94
+      internalID: -1700246093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573a6686ab5e5e64db022c1c9ad2a77c
+      internalID: -109564317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 967
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1977a550c64a69f47bbf3dca753c3e55
+      internalID: -1382446059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cfe100aae9ec14ca2d7b56168e4808
+      internalID: -1516899360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349a98b3fe74b94488b12ff5760ec67f
+      internalID: -1585886457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443fa1c7fbf0944ea8fcb803f0aefb5
+      internalID: 1289220486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafe313231101f24cbfc3fa250968928
+      internalID: 1782811893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae860311f06bfd94894b4fa92efd65dd
+      internalID: 721492671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f82cec13d1af5c49bf6bd44c30ac556
+      internalID: -583501322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 877
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547fcf152cd27b24faa200fafccb8ced
+      internalID: -872788505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6439ae00e80eff749ad7fa1b06153aa8
+      internalID: 1102891381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e071665af22457c49ac2ee9c8e3f5a1e
+      internalID: -1658884332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2020b855b160d488cc66d69ab53be2
+      internalID: 140611062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936794d86cb0e543b4f944e18705821
+      internalID: -1951743843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d936fb94e26947a1c0bce3a0958fb
+      internalID: -36942324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f673dc3a52b8f9c478c43b88ceba0bdf
+      internalID: -1361225895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_195
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 787
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ce028183136c6479932d659a1add18
+      internalID: -1932681888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71d55fd19ac2894dbbef2e920e156f3
+      internalID: -709056231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83608914e2fc1024abf85b226361f9cc
+      internalID: -510385982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d2257a73fe34f44a76f8e98872ae41
+      internalID: -1176344459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a793f940e8f6a14a963fd15100bcb5d
+      internalID: -1334906713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c8e7693e20c14d8136c807fd76f97
+      internalID: -637114915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_201
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc8181250a58b44b0693d137185471
+      internalID: -1347740107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_202
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 697
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6600e79a48bf73a4b9919c6f9a94c3c6
+      internalID: -1814717236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dacfb1c8ddaa343ae3f348810cc3f0
+      internalID: 1050828780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_204
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ac58dc472eaa46937adb537cf239f
+      internalID: 1103676331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_205
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574684398434f245a5c2453a7bb088f
+      internalID: -847065441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_206
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af05093ab426f284ba28d6c7eafe3b40
+      internalID: -324920680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_207
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3366c5625c6c8ec4981bb0b205bff3e7
+      internalID: 1323686935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_208
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a667831c9d053246bec11c88637af3a
+      internalID: 1634634404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_209
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 607
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74c44b9738f2484793722fe0169353b
+      internalID: 965931154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb4780797a47894889f136303c8f4c4
+      internalID: 1018000316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_211
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fa730a7716f80478fd3209ee5ca1b4
+      internalID: -102513534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_212
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a2120d6e4295246980f4025835de39
+      internalID: -1022644655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_213
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9442fc1ca455240b9bf79d07088523
+      internalID: 470122431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_214
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af0a638253bc734cb17c3c7de4f38ff
+      internalID: -1452405367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_215
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81959531d7c04c4781b3ce56bbefebd
+      internalID: -1190914246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_216
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 517
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d1c902d1276647b8b6ace9971d222
+      internalID: -1770954521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996681fa2439c7f46b753b1ee7cba357
+      internalID: -63949193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_218
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe81c6990f8daf418c0f9e81c69f1b5
+      internalID: 1698051698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_219
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad02597f233d0469a682c86acdcb21
+      internalID: 1813156698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_220
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a57a48c6cb6cf044add3002e6c48295
+      internalID: -952171438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_221
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abbbe1b121ff1c4c96ea445bd0dadb1
+      internalID: -2141487812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_222
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb9f6e31c71794aa784623f82e3cf5
+      internalID: -68853124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_223
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 427
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1380d686d90ca21489cec522cbe55fa8
+      internalID: -2105160796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cbc9618e52e174db105248b4cf2dae
+      internalID: -1482810791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_225
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b09ca6e1f76a242b21fb4a2d6ae9d4
+      internalID: -238277426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_226
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c881b7a6c576a84faa2e565157bce7f
+      internalID: 1609495856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_227
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ace3efa422cab345bc2dbae28c65260
+      internalID: 1491998344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_228
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773877e8c7eb8834191091c029664147
+      internalID: 493883712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_229
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec07f4abba9ffeb4aae7b39def9487f3
+      internalID: -1388194167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_230
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 337
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bdc0adf46311648aa7035d243f7e46
+      internalID: -666108949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e53161a8a0a1544c887aed22f39f4ff
+      internalID: -362535589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_232
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d00368d6e22949b590ec6d98727cd
+      internalID: 1479848980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_233
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af74079eac26ef4088f3256b55b59d3
+      internalID: -2002689331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_234
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0258edfc1ce3ceb41b9aec0e8fce3652
+      internalID: -1569253164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_235
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939967814ede0fb4c9f24881dc95dd06
+      internalID: 1554092560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_236
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e25fdddce98c478ee5a4f64cab21f
+      internalID: -1059060021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_237
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 247
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ab899bfcda6744ba1853f43d0533e
+      internalID: -190507810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739ad794922b9a24e8d2256d2310f867
+      internalID: 310504662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_239
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e348e712fa83949a8aa0f81b0048a3
+      internalID: 1279868173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_240
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5b4be97b62b3e46b974854b92ea631
+      internalID: -1288401084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_241
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc4ce5bff4263f4d86f49edf4c89bfa
+      internalID: -1596313119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_242
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91871d051c8619428524c98456c1d74
+      internalID: 1640034738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_243
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c8eaac96915a439c722da339d6c20
+      internalID: 953558672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_244
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 157
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090569f8cea1f2e4aa7b3580f7738b2c
+      internalID: -923912559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc80b34483ecf14794efd1cf084eae4
+      internalID: 1175213223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_246
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad18a2cc0f0ff684580604fdb0b94867
+      internalID: 1814799224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_247
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be7ded419002a64c8a1976800236249
+      internalID: 175747491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_248
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a31ca9459a5a04d80db425d8493e33
+      internalID: 300593565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_249
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc792f577b644d14f8577b5a023a01b7
+      internalID: 1998157845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_250
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4d2e7a3f3e684c9bbde593d172328
+      internalID: 29012463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal slug spritesheet_251
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 67
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6160df511b330c04f8077aa354724f2c
+      internalID: 946216121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      metal slug spritesheet_0: 1030493236
+      metal slug spritesheet_1: -355253892
+      metal slug spritesheet_10: -1122840686
+      metal slug spritesheet_100: -2071716188
+      metal slug spritesheet_101: 1933628228
+      metal slug spritesheet_102: -548914939
+      metal slug spritesheet_103: 1574345916
+      metal slug spritesheet_104: -1327272701
+      metal slug spritesheet_105: 394293818
+      metal slug spritesheet_106: 312361544
+      metal slug spritesheet_107: 1896438398
+      metal slug spritesheet_108: -1668212950
+      metal slug spritesheet_109: 1395985411
+      metal slug spritesheet_11: 868726108
+      metal slug spritesheet_110: 390691662
+      metal slug spritesheet_111: -240946794
+      metal slug spritesheet_112: -513361370
+      metal slug spritesheet_113: -1219031188
+      metal slug spritesheet_114: -225134585
+      metal slug spritesheet_115: 179340022
+      metal slug spritesheet_116: -1773022194
+      metal slug spritesheet_117: -160475186
+      metal slug spritesheet_118: -1602614553
+      metal slug spritesheet_119: -678789164
+      metal slug spritesheet_12: 399984570
+      metal slug spritesheet_120: 1241005276
+      metal slug spritesheet_121: 746146023
+      metal slug spritesheet_122: -392859937
+      metal slug spritesheet_123: -636048743
+      metal slug spritesheet_124: -537156765
+      metal slug spritesheet_125: 832786253
+      metal slug spritesheet_126: 1243630287
+      metal slug spritesheet_127: -2079617540
+      metal slug spritesheet_128: 1242357674
+      metal slug spritesheet_129: 586384572
+      metal slug spritesheet_13: 1882393545
+      metal slug spritesheet_130: -508254525
+      metal slug spritesheet_131: -1807524569
+      metal slug spritesheet_132: 1763026638
+      metal slug spritesheet_133: -1136834238
+      metal slug spritesheet_134: -1460982984
+      metal slug spritesheet_135: -1332586830
+      metal slug spritesheet_136: 1115128744
+      metal slug spritesheet_137: -1396237368
+      metal slug spritesheet_138: -2065456264
+      metal slug spritesheet_139: 1425081043
+      metal slug spritesheet_14: 656067525
+      metal slug spritesheet_140: 1435905203
+      metal slug spritesheet_141: -1867976857
+      metal slug spritesheet_142: 1267335798
+      metal slug spritesheet_143: 642773903
+      metal slug spritesheet_144: 1106452315
+      metal slug spritesheet_145: -1616961270
+      metal slug spritesheet_146: 618650864
+      metal slug spritesheet_147: -456844838
+      metal slug spritesheet_148: -1875960363
+      metal slug spritesheet_149: -63995881
+      metal slug spritesheet_15: -1114219405
+      metal slug spritesheet_150: -734170865
+      metal slug spritesheet_151: -309089946
+      metal slug spritesheet_152: -2131326213
+      metal slug spritesheet_153: -383410525
+      metal slug spritesheet_154: 1037633926
+      metal slug spritesheet_155: 1886879667
+      metal slug spritesheet_156: -1242816556
+      metal slug spritesheet_157: -1483026102
+      metal slug spritesheet_158: 294288668
+      metal slug spritesheet_159: -773045796
+      metal slug spritesheet_16: 1352641823
+      metal slug spritesheet_160: 1026713730
+      metal slug spritesheet_161: -300630933
+      metal slug spritesheet_162: -953227735
+      metal slug spritesheet_163: 140239711
+      metal slug spritesheet_164: 426439861
+      metal slug spritesheet_165: 1631773196
+      metal slug spritesheet_166: -1381384372
+      metal slug spritesheet_167: 561624692
+      metal slug spritesheet_168: 1451779610
+      metal slug spritesheet_169: 120818904
+      metal slug spritesheet_17: -629398038
+      metal slug spritesheet_170: -1453343990
+      metal slug spritesheet_171: 1046829424
+      metal slug spritesheet_172: 1840598599
+      metal slug spritesheet_173: -2016302158
+      metal slug spritesheet_174: -1660009939
+      metal slug spritesheet_175: -2018095192
+      metal slug spritesheet_176: 1170104363
+      metal slug spritesheet_177: -1567300246
+      metal slug spritesheet_178: 194897558
+      metal slug spritesheet_179: -1700246093
+      metal slug spritesheet_18: 1568420617
+      metal slug spritesheet_180: -109564317
+      metal slug spritesheet_181: -1382446059
+      metal slug spritesheet_182: -1516899360
+      metal slug spritesheet_183: -1585886457
+      metal slug spritesheet_184: 1289220486
+      metal slug spritesheet_185: 1782811893
+      metal slug spritesheet_186: 721492671
+      metal slug spritesheet_187: -583501322
+      metal slug spritesheet_188: -872788505
+      metal slug spritesheet_189: 1102891381
+      metal slug spritesheet_19: -364870271
+      metal slug spritesheet_190: -1658884332
+      metal slug spritesheet_191: 140611062
+      metal slug spritesheet_192: -1951743843
+      metal slug spritesheet_193: -36942324
+      metal slug spritesheet_194: -1361225895
+      metal slug spritesheet_195: -1932681888
+      metal slug spritesheet_196: -709056231
+      metal slug spritesheet_197: -510385982
+      metal slug spritesheet_198: -1176344459
+      metal slug spritesheet_199: -1334906713
+      metal slug spritesheet_2: -2138705488
+      metal slug spritesheet_20: 1719433327
+      metal slug spritesheet_200: -637114915
+      metal slug spritesheet_201: -1347740107
+      metal slug spritesheet_202: -1814717236
+      metal slug spritesheet_203: 1050828780
+      metal slug spritesheet_204: 1103676331
+      metal slug spritesheet_205: -847065441
+      metal slug spritesheet_206: -324920680
+      metal slug spritesheet_207: 1323686935
+      metal slug spritesheet_208: 1634634404
+      metal slug spritesheet_209: 965931154
+      metal slug spritesheet_21: -1869881335
+      metal slug spritesheet_210: 1018000316
+      metal slug spritesheet_211: -102513534
+      metal slug spritesheet_212: -1022644655
+      metal slug spritesheet_213: 470122431
+      metal slug spritesheet_214: -1452405367
+      metal slug spritesheet_215: -1190914246
+      metal slug spritesheet_216: -1770954521
+      metal slug spritesheet_217: -63949193
+      metal slug spritesheet_218: 1698051698
+      metal slug spritesheet_219: 1813156698
+      metal slug spritesheet_22: -1489743418
+      metal slug spritesheet_220: -952171438
+      metal slug spritesheet_221: -2141487812
+      metal slug spritesheet_222: -68853124
+      metal slug spritesheet_223: -2105160796
+      metal slug spritesheet_224: -1482810791
+      metal slug spritesheet_225: -238277426
+      metal slug spritesheet_226: 1609495856
+      metal slug spritesheet_227: 1491998344
+      metal slug spritesheet_228: 493883712
+      metal slug spritesheet_229: -1388194167
+      metal slug spritesheet_23: -1049214446
+      metal slug spritesheet_230: -666108949
+      metal slug spritesheet_231: -362535589
+      metal slug spritesheet_232: 1479848980
+      metal slug spritesheet_233: -2002689331
+      metal slug spritesheet_234: -1569253164
+      metal slug spritesheet_235: 1554092560
+      metal slug spritesheet_236: -1059060021
+      metal slug spritesheet_237: -190507810
+      metal slug spritesheet_238: 310504662
+      metal slug spritesheet_239: 1279868173
+      metal slug spritesheet_24: -442014563
+      metal slug spritesheet_240: -1288401084
+      metal slug spritesheet_241: -1596313119
+      metal slug spritesheet_242: 1640034738
+      metal slug spritesheet_243: 953558672
+      metal slug spritesheet_244: -923912559
+      metal slug spritesheet_245: 1175213223
+      metal slug spritesheet_246: 1814799224
+      metal slug spritesheet_247: 175747491
+      metal slug spritesheet_248: 300593565
+      metal slug spritesheet_249: 1998157845
+      metal slug spritesheet_25: -1317116629
+      metal slug spritesheet_250: 29012463
+      metal slug spritesheet_251: 946216121
+      metal slug spritesheet_26: 1518976178
+      metal slug spritesheet_27: -850445308
+      metal slug spritesheet_28: 1145984402
+      metal slug spritesheet_29: 2056458418
+      metal slug spritesheet_3: -922905224
+      metal slug spritesheet_30: 2054787639
+      metal slug spritesheet_31: 1314724468
+      metal slug spritesheet_32: -2046123088
+      metal slug spritesheet_33: 2129089296
+      metal slug spritesheet_34: 1814974123
+      metal slug spritesheet_35: -1276388894
+      metal slug spritesheet_36: -926734041
+      metal slug spritesheet_37: -1645084072
+      metal slug spritesheet_38: -1301080106
+      metal slug spritesheet_39: 756333076
+      metal slug spritesheet_4: -115559680
+      metal slug spritesheet_40: 1822540316
+      metal slug spritesheet_41: 1341846949
+      metal slug spritesheet_42: -1633499272
+      metal slug spritesheet_43: 854798132
+      metal slug spritesheet_44: -980081775
+      metal slug spritesheet_45: -423134565
+      metal slug spritesheet_46: -290936901
+      metal slug spritesheet_47: -321879463
+      metal slug spritesheet_48: -564644574
+      metal slug spritesheet_49: -427578531
+      metal slug spritesheet_5: 1850872760
+      metal slug spritesheet_50: -573174213
+      metal slug spritesheet_51: 1728244232
+      metal slug spritesheet_52: 560947194
+      metal slug spritesheet_53: 1888560964
+      metal slug spritesheet_54: -1656703533
+      metal slug spritesheet_55: -1628872333
+      metal slug spritesheet_56: 1155343450
+      metal slug spritesheet_57: -931351494
+      metal slug spritesheet_58: 1028065495
+      metal slug spritesheet_59: -801094156
+      metal slug spritesheet_6: -2125770108
+      metal slug spritesheet_60: -541221581
+      metal slug spritesheet_61: 828405450
+      metal slug spritesheet_62: -1509087774
+      metal slug spritesheet_63: -1381616338
+      metal slug spritesheet_64: 439058424
+      metal slug spritesheet_65: 2018857251
+      metal slug spritesheet_66: 760249830
+      metal slug spritesheet_67: 144412277
+      metal slug spritesheet_68: -1552909205
+      metal slug spritesheet_69: 1743039733
+      metal slug spritesheet_7: 947150730
+      metal slug spritesheet_70: -1446467438
+      metal slug spritesheet_71: 271845732
+      metal slug spritesheet_72: -1877172076
+      metal slug spritesheet_73: 1832702356
+      metal slug spritesheet_74: -1509304770
+      metal slug spritesheet_75: -916549259
+      metal slug spritesheet_76: 199177956
+      metal slug spritesheet_77: -427337120
+      metal slug spritesheet_78: -886558379
+      metal slug spritesheet_79: 1621994366
+      metal slug spritesheet_8: -1047874024
+      metal slug spritesheet_80: -476661470
+      metal slug spritesheet_81: 998661074
+      metal slug spritesheet_82: 2027159769
+      metal slug spritesheet_83: 551917100
+      metal slug spritesheet_84: 1860351105
+      metal slug spritesheet_85: 1672133111
+      metal slug spritesheet_86: -1090366856
+      metal slug spritesheet_87: -357347696
+      metal slug spritesheet_88: 675557553
+      metal slug spritesheet_89: -541156365
+      metal slug spritesheet_9: -299063470
+      metal slug spritesheet_90: -1102101274
+      metal slug spritesheet_91: 1959564152
+      metal slug spritesheet_92: 402308754
+      metal slug spritesheet_93: -1022090168
+      metal slug spritesheet_94: -363049840
+      metal slug spritesheet_95: -926874162
+      metal slug spritesheet_96: 1082596268
+      metal slug spritesheet_97: 237617257
+      metal slug spritesheet_98: 660101021
+      metal slug spritesheet_99: 48923437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
