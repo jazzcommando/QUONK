@@ -1,19 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DeathTrigger : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-
         Debug.Log("Collided with death trigger");
 
-        QuonkController player = GetComponent<QuonkController>();
+        QuonkController player = other.GetComponent<QuonkController>();
         if (player != null)
         {
             player.Die();
         }
-
     }
 }

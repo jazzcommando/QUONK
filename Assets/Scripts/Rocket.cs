@@ -7,11 +7,12 @@ public class Rocket : MonoBehaviour
     public GameObject explosionPrefab;
     public AudioClip bounceSound;
 
-    public int angularVelocity; // For grenades
     public bool explodeOnContactGround = true;
     public bool explodeOnContactEnemies = false;
-    public int explodeTimer = 0;
     public bool enableSoundOnBounce = true;
+
+    public int angularVelocity; // For grenades
+    public int explodeTimer = 0;
 
     private AudioSource rocketAudioSource;
 
@@ -23,7 +24,7 @@ public class Rocket : MonoBehaviour
 
         if (explodeTimer > 0)
         {
-            StartExplodeTimer();
+            StartCoroutine(StartExplodeTimer());
         }
 
         if (angularVelocity == 0)
@@ -32,7 +33,7 @@ public class Rocket : MonoBehaviour
         }
         else
         {
-            rb.angularVelocity = angularVelocity; // Grenades (doit SPEEN)
+            rb.angularVelocity = angularVelocity; // Grenades (needs to SPEEN)
         }
 
     }
@@ -51,7 +52,9 @@ public class Rocket : MonoBehaviour
 
         if (enableSoundOnBounce && rocketAudioSource != null && collision.relativeVelocity.magnitude > 2f)
         {
-            rocketAudioSource.PlayOneShot(bounceSound);
+            AudioSource.PlayClipAtPoint(bounceSound, (transform.position), 1f);
+            // PlayClipAtPoint() creates an audio source and destroys it once the sound is over,
+            // this makes it so that the bounce sound doesn't abruptly stop once the grenade has exploded
         }
     }
 
@@ -63,10 +66,10 @@ public class Rocket : MonoBehaviour
 
     IEnumerator StartExplodeTimer()
     {
+        while (explodeTimer > 0)
         {
             yield return new WaitForSeconds(1f);
             explodeTimer--;
-            Debug.Log("Explode timer:" + explodeTimer);
 
             if (explodeTimer <= 0)
             {

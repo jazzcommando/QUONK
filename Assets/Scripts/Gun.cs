@@ -48,19 +48,19 @@ public class Gun : MonoBehaviour
 
     private void Update()
     {
-        HandleGunSprite();
-        if (isFullAuto)
-        {
-            if (Input.GetButton("Fire1") && canShoot && currentAmmo > 0)
+            HandleGunSprite();
+            if (isFullAuto)
             {
+                if (Input.GetButton("Fire1") && canShoot && currentAmmo > 0)
+                {
+                    Shoot();
+                }
+            }
+            else if (Input.GetButtonDown("Fire1") && canShoot && currentAmmo > 0)
+            {
+
                 Shoot();
             }
-        }
-        else if (Input.GetButtonDown("Fire1") && canShoot && currentAmmo > 0)
-        {
-            
-            Shoot();
-        }
     }
 
     private void HandleGunSprite()

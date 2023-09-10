@@ -101,12 +101,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 2518455806510747196, guid: 217366410e5c9254b8a241f059d028a9, type: 3}
-  angularVelocity: 360
+  bounceSound: {fileID: 8300000, guid: 9bd72f319f740c24fa9622b119290f3c, type: 3}
   explodeOnContactGround: 0
   explodeOnContactEnemies: 1
-  explodeTimer: 3
-  bounceSound: {fileID: 8300000, guid: 9bd72f319f740c24fa9622b119290f3c, type: 3}
+  explodeOnTimer: 1
   enableSoundOnBounce: 1
+  angularVelocity: 360
+  explodeTimer: 3
 --- !u!50 &728801550281847777
 Rigidbody2D:
   serializedVersion: 4

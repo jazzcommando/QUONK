@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
     public TextMeshProUGUI deathText;
-    public int score = 0;
     public TextMeshProUGUI scoreText;
+
+    public int score = 0;
 
     private bool playerHasDied = false;
     private const string HighScoreKey = "HighScore";
