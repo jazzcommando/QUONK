@@ -10,15 +10,18 @@ public class Enemy : MonoBehaviour
     public int damageOnCollide = 25;
     public int scoreValue = 15;
     public float damageFlashDuration = 0.2f; 
+
     public Color damageColor = Color.red;
+    public GameObject corpsePrefab;
+
    // private GameManager gameManager;
 
-    protected Transform player; // Reference to the player's transform
+    protected Transform playerTransform; 
     protected Vector2 initialPosition;
     protected float currentHealth;
     protected SpriteRenderer spriteRenderer;
     protected Rigidbody2D rb;
-    protected bool canTakeDamage = true;
+    protected bool canTakeDamage = true; // flag for iframe during red flash 
     
 
     protected virtual void Start()
@@ -26,44 +29,46 @@ public class Enemy : MonoBehaviour
         initialPosition = transform.position;
         currentHealth = maxHealth;
 
-        // Find the player by tag during runtime
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        // find the player by tag (can't assign player transform in the inspector due to enemies being prefabs)
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
-        if (player == null)
+        if (playerTransform == null)
         {
             Debug.LogError("Player GameObject not found! Make sure the player has a tag 'Player'.");
         }
 
         spriteRenderer = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>(); // <-- Assign the Rigidbody2D component
+        rb = GetComponent<Rigidbody2D>(); 
     }
 
     protected virtual void Update()
     {
-        if (player != null)
-        {
-            // Calculate the direction to the player
-            Vector2 directionToPlayer = (player.position - transform.position).normalized;
-
-            // Apply bobbing motion
-            float bobbingOffset = Mathf.Sin(Time.time * bobbingSpeed) * bobbingAmount;
-            Vector2 bobbingMovement = Vector2.up * bobbingOffset;
-
-            // Calculate the final movement vector
-            Vector2 movementVector = (directionToPlayer + bobbingMovement).normalized;
-
-            // Move the enemy towards the player
-            transform.Translate(movementVector * movementSpeed * Time.deltaTime);
-        }
+        FlyTowardsPlayer();
     }
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        QuonkController quonkController = collision.gameObject.GetComponent<QuonkController>();
-        if (quonkController != null)
+        QuonkController player = collision.gameObject.GetComponent<QuonkController>();
+        if (player != null)
         {
-            quonkController.TakeDamage(damageOnCollide);
-            Debug.Log("Enemy collided with player");
+            player.TakeDamage(damageOnCollide);
+        }
+    }
+
+
+    protected virtual void FlyTowardsPlayer()
+    {
+        if (playerTransform != null)
+        {
+
+            Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
+
+            // bobbing motion logic
+            float bobbingOffset = Mathf.Sin(Time.time * bobbingSpeed) * bobbingAmount;
+            Vector2 bobbingMovement = Vector2.up * bobbingOffset;
+
+            Vector2 movementVector = (directionToPlayer + bobbingMovement).normalized;
+            transform.Translate(movementVector * movementSpeed * Time.deltaTime);
         }
     }
 
@@ -81,7 +86,13 @@ public class Enemy : MonoBehaviour
 
     protected virtual void Die()
     {
+
         Destroy(gameObject);
+
+        GameObject corpse = Instantiate(corpsePrefab, transform.position, Quaternion.identity);
+        Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized; // get vector facing away from player for corpse travel direction
+        corpse.GetComponent<Rigidbody2D>().velocity = -directionToPlayer * -currentHealth; // * -currentHealth --> the less health, the further the corpse flies
+        corpse.GetComponent<Rigidbody2D>().angularVelocity = -currentHealth * 10;
 
         GameManager gameManager = FindObjectOfType<GameManager>();
         if (gameManager != null)
@@ -93,19 +104,10 @@ public class Enemy : MonoBehaviour
 
     protected IEnumerator ShowDamageFlash()
     {
-        // Set the flag to prevent taking damage during the red flash
         canTakeDamage = false;
-
-        // Change sprite color to damage color
         spriteRenderer.color = damageColor;
-
-        // Wait for the red flash duration
         yield return new WaitForSeconds(damageFlashDuration);
-
-        // Reset sprite color back to normal
         spriteRenderer.color = Color.white;
-
-        // Set the flag back to allow taking damage
         canTakeDamage = true;
     }
 }

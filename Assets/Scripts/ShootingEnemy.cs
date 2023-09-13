@@ -20,8 +20,7 @@ public class ShootingEnemy : Enemy
 
     protected override void Update()
     {
-        base.Update();
-        // Add any additional behavior for the shooting enemy here (if needed).
+        FlyTowardsPlayer();
     }
 
     private IEnumerator ShootRoutine()
@@ -38,10 +37,10 @@ public class ShootingEnemy : Enemy
 
     private void Shoot()
     {
-        if (player != null)
+        if (playerTransform != null)
         {
             // Calculate the direction to the player
-            Vector2 directionToPlayer = (player.position - shootPoint.position).normalized;
+            Vector2 directionToPlayer = (playerTransform.position - shootPoint.position).normalized;
 
             // Instantiate the projectile and set its direction
             GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);

@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-   
     public int damage;
-    public float bulletPushForce = 100f; 
-
+    public float bulletPushForce = 10f; 
 
     void Start()
     {
-        // auto détruit après 2 secondes
         Destroy(gameObject, 2f); 
     }
 
@@ -19,23 +16,22 @@ public class Bullet : MonoBehaviour
     {
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
        
-
         if (enemy != null)
         {
-            Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>(); // get rb pour appliquer pushforce 
+            Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>(); 
             if (enemyRb != null)
             {
-                // applique bulletPushForce dans la direction du projectile (collision.relativeVelocity.normalized)
-                enemyRb.AddForce(collision.relativeVelocity.normalized * -bulletPushForce, ForceMode2D.Impulse); 
+                enemyRb.AddForce(collision.relativeVelocity.normalized * -bulletPushForce, ForceMode2D.Impulse);
+                // applique bulletPushForce dans la direction du projectile ( --> collision.relativeVelocity.normalized)
             }
 
             enemy.TakeDamage(damage);
             Destroy(gameObject); 
+
         }
         else if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") || collision.gameObject.layer == LayerMask.NameToLayer("DeleteProjectiles"))
         {
             Destroy(gameObject);
-            Debug.Log("Projectile collided with ground");
         }
     }
-}
+} 

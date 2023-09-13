@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc06cdcf081d07e4ca4492e35331e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 13.5
-  enemyForce: 0.07
+  damage: 13
+  bulletPushForce: 3
 --- !u!50 &728801550281847777
 Rigidbody2D:
   serializedVersion: 4

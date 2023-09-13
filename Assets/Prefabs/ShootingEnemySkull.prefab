@@ -105,8 +105,9 @@ MonoBehaviour:
   bobbingAmount: 0.5
   damageOnCollide: 20
   scoreValue: 15
-  redFlashDuration: 0.2
+  damageFlashDuration: 0.2
   damageColor: {r: 1, g: 0, b: 0, a: 1}
+  corpsePrefab: {fileID: 8492961176185801987, guid: 908474604a8a8b242a6e0d7a3e74444c, type: 3}
   shootProjectiles: 1
   projectileSpeed: 5
   enemyFireRate: 0.5
@@ -124,7 +125,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 80
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

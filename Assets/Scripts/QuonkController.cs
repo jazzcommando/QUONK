@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class QuonkController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class QuonkController : MonoBehaviour
     public float topSpeed = 5f;
     public float deceleration = 10f;
     public float jumpForce = 5f;
+    public float playerDamageFlashDuration = 0.25f;
+    public Color damageColor = Color.red;
 
     public int maxHealth = 100;
     public int currentHealth;
@@ -32,6 +35,7 @@ public class QuonkController : MonoBehaviour
     private GameManager gameManager;
     private AudioSource audioSource;
     private WeaponSwitching weaponSwitcher;
+    private SpriteRenderer spriteRenderer;
     private Vector2 inputDirection;
     private LayerMask groundLayer; 
 
@@ -42,6 +46,7 @@ public class QuonkController : MonoBehaviour
         UpdateHealthText();
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         groundLayer = LayerMask.GetMask("Ground"); // Cache the ground layer mask
 
         gameManager = FindObjectOfType<GameManager>();
@@ -106,6 +111,7 @@ public class QuonkController : MonoBehaviour
         else
         {
             UpdateHealthText();
+            StartCoroutine(ShowDamageFlash());
             currentHealth -= damage;
         }
     }
@@ -145,6 +151,13 @@ public class QuonkController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f); 
             stopJumping = false; 
         }
+    }
+
+    protected IEnumerator ShowDamageFlash()
+    {
+        spriteRenderer.color = damageColor;
+        yield return new WaitForSeconds(playerDamageFlashDuration);
+        spriteRenderer.color = Color.white;
     }
 
     public void Die()

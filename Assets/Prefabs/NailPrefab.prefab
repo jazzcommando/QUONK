@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 21
-  enemyForce: 0.02
+  bulletPushForce: 15
 --- !u!50 &728801550281847777
 Rigidbody2D:
   serializedVersion: 4
