@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class WeaponSwitching : MonoBehaviour
 {
-    public GameObject[] weapons; //logique de switch d'arme géré par cette array
-    public Sprite[] weaponIcons; // idem pour les icones dans le HUD 
+    public GameObject[] weapons; // stores weapons indices
+    public Sprite[] weaponIcons; // stores weapon HUD elements
 
     public Image weaponIconImage;
     public AudioClip equipSound;
@@ -25,7 +25,7 @@ public class WeaponSwitching : MonoBehaviour
         {
             if (Input.GetKeyDown((KeyCode)(49 + i))) // KeyCode 48 = Alpha0 
             {
-                SwitchWeapon(i); // si la touche chiffrée correspond au weapon index correspondant --> switch à ce weapon index 
+                SwitchWeapon(i); 
             }
         }
 
@@ -37,15 +37,13 @@ public class WeaponSwitching : MonoBehaviour
 
         if (newWeaponIndex >= 0 && newWeaponIndex < weapons.Length)
         {
-            //désactive current weapon, active nouvelle 
             DeactivateWeapon(currentWeaponIndex);
             ActivateWeapon(newWeaponIndex);
             currentWeaponIndex = newWeaponIndex;
 
-            // get gun component de la nouvelle arme, update ammo text 
             Gun newGun = weapons[currentWeaponIndex].GetComponent<Gun>();
             newGun.UpdateAmmoText();
-            newGun.canShoot = true; // évite que la nouvelle arme soit bloquée si jamais canShoot n'a pas eu le temps de se reset avant le switch 
+            newGun.canShoot = true; // force reset canShoot, otherwise it stays set to false if the player switches weapons fast enough while firing
 
             weaponIconImage.sprite = weaponIcons[currentWeaponIndex];
         
@@ -57,12 +55,12 @@ public class WeaponSwitching : MonoBehaviour
         weapons[weaponIndex].SetActive(true);
     }
 
-    public void DeactivateWeapon(int weaponIndex) // public parceque doit être accédé par playercontroller pour desactiver l'arme quand il meurt 
+    public void DeactivateWeapon(int weaponIndex) // public -> needs to be accessed by QuonkController for death logic
     {
         weapons[weaponIndex].SetActive(false);
     }
 
-    public int GetCurrentWeaponIndex() // idem: playercontroller a besoin de spécifier l'index pour que DeactivateWeapon() fonctionne 
+    public int GetCurrentWeaponIndex() // same as above
     {
         return currentWeaponIndex;
     }

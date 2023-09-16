@@ -9,7 +9,7 @@ public class EnemyProjectile : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, 5f); // auto détruit après 5 secondes
+        Destroy(gameObject, 5f);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

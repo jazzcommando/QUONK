@@ -5,7 +5,7 @@ public class ShootingEnemy : Enemy
 {
     public bool shootProjectiles = true;
     public float projectileSpeed;
-    public float enemyFireRate = 2f; // Time between enemy shots
+    public float enemyFireRate = 2f; 
     public GameObject projectilePrefab;
     public Transform shootPoint;
 
@@ -39,24 +39,19 @@ public class ShootingEnemy : Enemy
     {
         if (playerTransform != null)
         {
-            // Calculate the direction to the player
             Vector2 directionToPlayer = (playerTransform.position - shootPoint.position).normalized;
 
-            // Instantiate the projectile and set its direction
             GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = directionToPlayer * projectileSpeed;
 
-            // Set canShoot to false to prevent rapid firing
             canShoot = false;
 
-            // Start the shoot cooldown
             StartCoroutine(ShootCooldown());
         }
     }
 
     private IEnumerator ShootCooldown()
     {
-        // Wait for the enemy fire rate before allowing shooting again
         yield return new WaitForSeconds(1f / enemyFireRate);
         canShoot = true;
     }

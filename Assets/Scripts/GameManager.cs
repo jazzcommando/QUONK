@@ -8,15 +8,15 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI deathText;
     public TextMeshProUGUI scoreText;
 
+
     public int score = 0;
+    public int highScore = 0;
 
     private bool playerHasDied = false;
-    private const string HighScoreKey = "HighScore";
 
 
     private void Awake()
     {
-       
         if (Instance == null)
         {
             Instance = this;
@@ -25,27 +25,33 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     void Start()
     {
-        UpdateScoreText();
+
+        highScore = PlayerPrefs.GetInt("HighScore", 0);
+        
         deathText.gameObject.SetActive(false);
+        scoreText.gameObject.SetActive(true);
+        UpdateScoreText();
+
     }
 
 
 
     private void UpdateScoreText()
     {
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = "Score: " + score.ToString() + "\nHigh Score: " + highScore.ToString(); 
+
+        if (score > highScore)
+        {
+            scoreText.text += "\nNew High Score!";
+        }
+
     }
 
    
-    public void UpdateDeathText()
-    {
-        // ?????? pq vide
-    }
 
     private void Update()
     {
@@ -53,11 +59,19 @@ public class GameManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                Debug.Log("GameManager received spacebar input");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 
         UpdateScoreText();
+
+      // DEBUG
+      // if (Input.GetKeyDown(KeyCode.R))
+      // {
+      //    highScore = 0;
+      //    Debug.Log("Set high score to 0");
+      // }
 
     }
 
@@ -65,7 +79,16 @@ public class GameManager : MonoBehaviour
     {
         playerHasDied = true; 
         deathText.gameObject.SetActive(true);
-        deathText.text = "YOU DIED\nScore: " + score + "\nPress SPACE to Restart";
+        scoreText.gameObject.SetActive(false);
+
+        if (score > highScore)
+        {
+            highScore = score;
+            PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.Save();
+        }
+
+        deathText.text = "YOU DIED\nScore: " + score + "\nPress SPACE to Restart" + "\nHigh Score: " + highScore;
 
     }
 
@@ -75,6 +98,5 @@ public class GameManager : MonoBehaviour
         score = 0;
         FindObjectOfType<QuonkController>().currentHealth = FindObjectOfType<QuonkController>().maxHealth;
         FindObjectOfType<QuonkController>().UpdateHealthText();
-        UpdateDeathText();
     }
 }

@@ -28,11 +28,11 @@ public class QuonkController : MonoBehaviour
 
     private bool isJumping = false;
     private bool isGrounded = false;
-    private bool stopJumping = false; 
+    private bool stopJumping = false;
+    private bool canTakeDamage = true;
 
     private Rigidbody2D rb;
     private BoxCollider2D bc;
-    private GameManager gameManager;
     private AudioSource audioSource;
     private WeaponSwitching weaponSwitcher;
     private SpriteRenderer spriteRenderer;
@@ -48,15 +48,10 @@ public class QuonkController : MonoBehaviour
         bc = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         groundLayer = LayerMask.GetMask("Ground"); // Cache the ground layer mask
-
-        gameManager = FindObjectOfType<GameManager>();
-
     }
 
     private void Update()
     {
-        
-
         // movement
         if (hasDied == false)
         {
@@ -70,18 +65,16 @@ public class QuonkController : MonoBehaviour
             isJumping = true;
         }
 
-        // Detect when the jump key is released
         if (Input.GetButtonUp("Jump"))
         {
             stopJumping = true; 
         }
 
-        if (currentHealth <= 0)
+        //death
+        if (currentHealth <= 0 && hasDied == false)
         {
             Die();
         }
-
-
     }
 
     private void HandleGunFlip()
@@ -116,7 +109,7 @@ public class QuonkController : MonoBehaviour
         }
     }
 
-    private void FixedUpdate() // fixedupdate pour tout ce qui est physique pcq fixedupdate ne dépend pas du framerate
+    private void FixedUpdate() 
     {
         
         float targetVelocityX = moveX * topSpeed;
@@ -129,10 +122,10 @@ public class QuonkController : MonoBehaviour
   
         rb.velocity = velocity;
 
-        // Check if the player is grounded using a circle cast
+        // ground check using a circlecast
         float rayLength = 0.1f;
         Vector2 rayOrigin = bc.bounds.center - new Vector3(0, bc.bounds.extents.y);
-        float circleRadius = 0.2f; // You can adjust this value as you like
+        float circleRadius = 0.2f; 
         RaycastHit2D hit = Physics2D.CircleCast(rayOrigin, circleRadius, Vector2.down, rayLength, groundLayer);
         isGrounded = hit.collider != null;
 
@@ -155,16 +148,21 @@ public class QuonkController : MonoBehaviour
 
     protected IEnumerator ShowDamageFlash()
     {
+        canTakeDamage = false;
+        Debug.Log("Player now has iframes");
         spriteRenderer.color = damageColor;
         yield return new WaitForSeconds(playerDamageFlashDuration);
         spriteRenderer.color = Color.white;
+        canTakeDamage = true;
+        Debug.Log("Player no longer has iframes");
     }
 
     public void Die()
     {
+        Debug.Log("Die called");
         hasDied = true;
         gunAxis.SetActive(false); 
-        gameManager.PlayerDied();
+        GameManager.Instance.PlayerDied();
         AudioSource.PlayClipAtPoint(deathSound, (transform.position), 1f);
         transform.rotation = Quaternion.Euler(0, 0, -90);
     }

@@ -4,24 +4,25 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int maxHealth = 100;
+    public int damageOnCollide = 25;
+    public int scoreValue = 15;
     public float movementSpeed = 2f;
     public float bobbingSpeed = 1.5f;
     public float bobbingAmount = 0.2f;
-    public int damageOnCollide = 25;
-    public int scoreValue = 15;
-    public float damageFlashDuration = 0.2f; 
+    public float damageFlashDuration = 0.2f;
 
     public Color damageColor = Color.red;
     public GameObject corpsePrefab;
 
-   // private GameManager gameManager;
-
-    protected Transform playerTransform; 
     protected Vector2 initialPosition;
-    protected float currentHealth;
+    protected Transform playerTransform;
     protected SpriteRenderer spriteRenderer;
     protected Rigidbody2D rb;
+
+    protected float currentHealth;
+    
     protected bool canTakeDamage = true; // flag for iframe during red flash 
+    protected bool hasDied = false;
     
 
     protected virtual void Start()
@@ -87,6 +88,11 @@ public class Enemy : MonoBehaviour
     protected virtual void Die()
     {
 
+        if (hasDied == true)
+        {
+            return; // prevents Die() from being called multiple times if multiple projectiles kill one enemy at the same time (eg, from the shotgun)
+        }
+
         Destroy(gameObject);
 
         GameObject corpse = Instantiate(corpsePrefab, transform.position, Quaternion.identity);
@@ -94,11 +100,9 @@ public class Enemy : MonoBehaviour
         corpse.GetComponent<Rigidbody2D>().velocity = -directionToPlayer * -currentHealth; // * -currentHealth --> the less health, the further the corpse flies
         corpse.GetComponent<Rigidbody2D>().angularVelocity = -currentHealth * 10;
 
-        GameManager gameManager = FindObjectOfType<GameManager>();
-        if (gameManager != null)
-        {
-            gameManager.score += scoreValue;
-        }
+        GameManager.Instance.score += scoreValue;
+
+        hasDied = true;
 
     }
 
