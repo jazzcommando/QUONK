@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 2363394117686166178}
   m_Layer: 9
   m_Name: EnemyMarine
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,11 +204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  damageOnCollide: 25
+  scoreValue: 15
   movementSpeed: 1.5
   bobbingSpeed: 0
   bobbingAmount: 0
-  damageOnCollide: 25
-  scoreValue: 15
   damageFlashDuration: 0.2
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   corpsePrefab: {fileID: 8492961176185801987, guid: ed998bf879290b74b98fd6266bab8578, type: 3}

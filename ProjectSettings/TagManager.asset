@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - projDelete
+  - Enemy
   layers:
   - Default
   - TransparentFX

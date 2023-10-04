@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3737225067256186074}
   m_Layer: 9
   m_Name: EnemySkull
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,11 +135,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 40
+  damageOnCollide: 25
+  scoreValue: 10
   movementSpeed: 2
   bobbingSpeed: 1.5
   bobbingAmount: 1
-  damageOnCollide: 25
-  scoreValue: 10
   damageFlashDuration: 0.2
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   corpsePrefab: {fileID: 8492961176185801987, guid: e3509a5978e06e248bfbc155c1a23219, type: 3}

@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int highScore = 0;
 
-    private bool playerHasDied = false;
+    public bool playerHasDied = false;
 
 
     private void Awake()
@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+
+        Cursor.lockState = CursorLockMode.Confined;
 
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         

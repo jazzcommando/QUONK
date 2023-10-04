@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4841626233398967823}
   m_Layer: 9
   m_Name: ShootingEnemySkull
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,12 +100,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  damageOnCollide: 20
+  scoreValue: 15
   movementSpeed: 0.5
   bobbingSpeed: 1.5
   bobbingAmount: 0.5
-  damageOnCollide: 20
-  scoreValue: 15
   damageFlashDuration: 0.2
+  playerPushbackForce: 30
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   corpsePrefab: {fileID: 8492961176185801987, guid: 908474604a8a8b242a6e0d7a3e74444c, type: 3}
   shootProjectiles: 1

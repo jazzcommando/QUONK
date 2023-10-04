@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class GameTimer : MonoBehaviour
 {
+
     public TextMeshProUGUI timerText;
+
     private float timer;
 
     private void Start()
@@ -16,11 +18,11 @@ public class GameTimer : MonoBehaviour
 
     private void Update()
     {
-        // Update the timer value
-        timer += Time.deltaTime;
-
-        // Update the display
-        UpdateTimerText();
+        if (GameManager.Instance.playerHasDied == false)
+        {
+            timer += Time.deltaTime;
+            UpdateTimerText();
+        }
     }
 
     private void UpdateTimerText()
@@ -28,7 +30,6 @@ public class GameTimer : MonoBehaviour
         int minutes = Mathf.FloorToInt(timer / 60f);
         int seconds = Mathf.FloorToInt(timer % 60f);
 
-        // Format the timer in MM:SS format
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

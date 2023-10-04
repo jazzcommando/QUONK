@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public float bobbingSpeed = 1.5f;
     public float bobbingAmount = 0.2f;
     public float damageFlashDuration = 0.2f;
+    public float playerPushbackForce = 0.5f;
 
     public Color damageColor = Color.red;
     public GameObject corpsePrefab;
@@ -18,6 +19,7 @@ public class Enemy : MonoBehaviour
     protected Transform playerTransform;
     protected SpriteRenderer spriteRenderer;
     protected Rigidbody2D rb;
+    protected Rigidbody2D playerRb;
 
     protected float currentHealth;
     
@@ -32,6 +34,8 @@ public class Enemy : MonoBehaviour
 
         // find the player by tag (can't assign player transform in the inspector due to enemies being prefabs)
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>(); 
+
 
         if (playerTransform == null)
         {
@@ -53,6 +57,9 @@ public class Enemy : MonoBehaviour
         if (player != null)
         {
             player.TakeDamage(damageOnCollide);
+            Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
+            playerRb.AddForce(-directionToPlayer * playerPushbackForce);
+            
         }
     }
 

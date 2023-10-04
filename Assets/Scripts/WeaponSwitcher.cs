@@ -7,6 +7,8 @@ public class WeaponSwitching : MonoBehaviour
 {
     public GameObject[] weapons; // stores weapons indices
     public Sprite[] weaponIcons; // stores weapon HUD elements
+    public bool[] i, unlockedWeapons; // stores weapon pickups status
+
 
     public Image weaponIconImage;
     public AudioClip equipSound;
@@ -30,6 +32,14 @@ public class WeaponSwitching : MonoBehaviour
         }
 
 
+    }
+
+    public void UnlockWeapon(int weaponIndex)
+    {
+        if (weaponIndex >= 0 && weaponIndex < weapons.Length)
+        {
+            unlockedWeapons[weaponIndex] = true;
+        }
     }
 
     public void SwitchWeapon(int newWeaponIndex)

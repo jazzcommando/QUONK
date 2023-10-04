@@ -100,7 +100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 21
+  pierceScale: 0
   bulletPushForce: 15
+  canPierce: 1
 --- !u!50 &728801550281847777
 Rigidbody2D:
   serializedVersion: 4

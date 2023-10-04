@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5012118042383018815}
   m_Layer: 0
   m_Name: EnemyRat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,11 +101,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  damageOnCollide: 25
+  scoreValue: 5
   movementSpeed: 2
   bobbingSpeed: 0
   bobbingAmount: 0
-  damageOnCollide: 25
-  scoreValue: 5
   damageFlashDuration: 0.2
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   corpsePrefab: {fileID: 8492961176185801987, guid: 4592cbd787a64ce489c1b49fd3f5df30, type: 3}

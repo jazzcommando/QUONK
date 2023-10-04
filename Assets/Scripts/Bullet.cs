@@ -5,7 +5,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int damage;
-    public float bulletPushForce = 10f; 
+    public int pierceScale;
+
+    public float bulletPushForce = 10f;
+
+    public bool canPierce = false;
 
     void Start()
     {
@@ -26,8 +30,15 @@ public class Bullet : MonoBehaviour
             }
 
             enemy.TakeDamage(damage);
-            Destroy(gameObject); 
-
+            
+            if (canPierce)
+            {
+                return;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
         else if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") || collision.gameObject.layer == LayerMask.NameToLayer("DeleteProjectiles"))
         {
