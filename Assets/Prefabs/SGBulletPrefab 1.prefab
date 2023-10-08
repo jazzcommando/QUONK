@@ -99,8 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc06cdcf081d07e4ca4492e35331e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 13
+  damage: 20
+  pierceScale: 0
   bulletPushForce: 3
+  canPierce: 0
 --- !u!50 &728801550281847777
 Rigidbody2D:
   serializedVersion: 4

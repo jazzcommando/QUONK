@@ -21,6 +21,7 @@ public class QuonkController : MonoBehaviour
     public bool godMode = false;
 
     public TextMeshProUGUI healthText;
+    public AudioClip hurtSound;
     public AudioClip deathSound;
     public GameObject gunAxis;
     public LineRenderer hookLineRender;
@@ -132,6 +133,7 @@ public class QuonkController : MonoBehaviour
             UpdateHealthText();
             StartCoroutine(ShowDamageFlash());
             currentHealth -= damage;
+            AudioSource.PlayClipAtPoint(hurtSound, transform.position, 5500f);
         }
     }
 
