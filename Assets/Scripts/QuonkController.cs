@@ -9,11 +9,12 @@ public class QuonkController : MonoBehaviour
     public float topSpeed = 5f;
     public float deceleration = 10f;
     public float jumpForce = 5f;
-    public float playerDamageFlashDuration = 0.25f;
-    public Color damageColor = Color.red;
+    public float grapplingHookForce = 10f;
+    public float coyoteTime = 0.12f;
 
-    public int maxHealth = 100;
     public int currentHealth;
+    public int maxHealth = 100;
+    public float playerDamageFlashDuration = 0.25f;
 
     public bool canDie = true;
     public bool hasDied = false;
@@ -22,12 +23,17 @@ public class QuonkController : MonoBehaviour
     public TextMeshProUGUI healthText;
     public AudioClip deathSound;
     public GameObject gunAxis;
+    public LineRenderer hookLineRender;
+    public LayerMask hookableLayer;
+    public Color damageColor = Color.red;
 
-    private float moveX; 
+    private float moveX;
     private float currentSpeed = 0f;
+    private float coyoteTimeTimer;
 
-    private bool isJumping = false;
     private bool isGrounded = false;
+    private bool isJumping = false;
+    private bool isHooked = false;
     private bool stopJumping = false;
     private bool canTakeDamage = true;
 
@@ -37,8 +43,9 @@ public class QuonkController : MonoBehaviour
     private WeaponSwitching weaponSwitcher;
     private SpriteRenderer spriteRenderer;
     private Vector2 inputDirection;
-    private LayerMask groundLayer; 
-
+    private Vector2 hookPoint;
+    private GameObject hookObject;
+    private LayerMask groundLayer;
 
     private void Awake()
     {
@@ -52,25 +59,44 @@ public class QuonkController : MonoBehaviour
 
     private void Update()
     {
-        // movement
         if (hasDied == false)
         {
             HandleGunFlip();
             moveX = Input.GetAxisRaw("Horizontal");
         }
 
-        // jump
-        if (Input.GetButtonDown("Jump") && isGrounded && hasDied == false)
+        if (isGrounded)
         {
-            isJumping = true;
+            coyoteTimeTimer = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeTimer -= Time.deltaTime;
+        }
+
+        if (Input.GetButtonDown("Jump") && !hasDied)
+        {
+            if (isHooked || coyoteTimeTimer > 0f){
+                isJumping = true;
+                DisconnectGrapplingHook();
+            }
         }
 
         if (Input.GetButtonUp("Jump"))
         {
-            stopJumping = true; 
+            stopJumping = true;
+            coyoteTimeTimer = 0f;
         }
 
-        //death
+        if (Input.GetMouseButtonDown(1) && !isHooked)
+        {
+            ShootGrapplingHook();
+        }
+        else if (Input.GetMouseButtonUp(1))
+        {
+            DisconnectGrapplingHook();
+        }
+
         if (currentHealth <= 0 && hasDied == false)
         {
             Die();
@@ -96,8 +122,8 @@ public class QuonkController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (godMode || hasDied) //hasDied check to prevent health from going into negative once player has died 
-        {
+        if (godMode || hasDied)
+        { //hasDied check to prevent health from going into negative once player has died 
             UpdateHealthText(); // we still need to update health text, otherwise the health will not go to 0 once player dies
             return;
         }
@@ -109,41 +135,65 @@ public class QuonkController : MonoBehaviour
         }
     }
 
-    private void FixedUpdate() 
+    private void ShootGrapplingHook()
     {
-        
-        float targetVelocityX = moveX * topSpeed;
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = (mousePosition - (Vector2)transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, Mathf.Infinity, hookableLayer);
 
-        currentSpeed = Mathf.MoveTowards(currentSpeed, targetVelocityX, acceleration * Time.fixedDeltaTime);
-
-       
-        Vector2 velocity = new Vector2(currentSpeed, rb.velocity.y);
-
-  
-        rb.velocity = velocity;
-
-        // ground check using a circlecast
-        float rayLength = 0.1f;
-        Vector2 rayOrigin = bc.bounds.center - new Vector3(0, bc.bounds.extents.y);
-        float circleRadius = 0.2f; 
-        RaycastHit2D hit = Physics2D.CircleCast(rayOrigin, circleRadius, Vector2.down, rayLength, groundLayer);
-        isGrounded = hit.collider != null;
-
-
-        // jumping logic
-        if (isJumping)
+        if (hit.collider != null)
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false;
+            isHooked = true;
+            hookPoint = hit.point;
+        }
+    }
+
+    private void DisconnectGrapplingHook()
+    {
+        isHooked = false;
+        hookLineRender.positionCount = 0;
+    }
+
+    private void FixedUpdate()
+    {
+
+        if (isHooked)
+        {
+            Vector2 direction = (hookPoint - (Vector2)transform.position).normalized;
+            rb.velocity = direction * grapplingHookForce;
+            hookLineRender.positionCount = 2;
+            hookLineRender.SetPosition(0, transform.position);
+            hookLineRender.SetPosition(1, hookPoint);
+        }
+        else
+        {
+            float targetVelocityX = moveX * topSpeed;
+            currentSpeed = Mathf.MoveTowards(currentSpeed, targetVelocityX, acceleration * Time.fixedDeltaTime);
+            Vector2 velocity = new Vector2(currentSpeed, rb.velocity.y);
+            rb.velocity = velocity;
+
+            // ground check using a circlecast
+            float rayLength = 0.1f;
+            Vector2 rayOrigin = bc.bounds.center - new Vector3(0, bc.bounds.extents.y);
+            float circleRadius = 0.2f;
+            RaycastHit2D hit = Physics2D.CircleCast(rayOrigin, circleRadius, Vector2.down, rayLength, groundLayer);
+            isGrounded = hit.collider != null;
+
+
+            if (isJumping)
+            { // jumping logic
+                rb.AddForce(new Vector2(0f, jumpForce));
+                isJumping = false;
+            }
+
+            if (stopJumping)
+            { // reduce the vertical velocity when the jump ends
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+                stopJumping = false;
+            }
+
         }
 
-
-        // reduce the vertical velocity when the jump ends
-        if (stopJumping)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f); 
-            stopJumping = false; 
-        }
     }
 
     protected IEnumerator ShowDamageFlash()
@@ -161,7 +211,7 @@ public class QuonkController : MonoBehaviour
     {
         Debug.Log("Die called");
         hasDied = true;
-        gunAxis.SetActive(false); 
+        gunAxis.SetActive(false);
         GameManager.Instance.PlayerDied();
         AudioSource.PlayClipAtPoint(deathSound, (transform.position), 1f);
         transform.rotation = Quaternion.Euler(0, 0, -90);

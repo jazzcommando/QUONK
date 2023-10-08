@@ -23,22 +23,17 @@ public class Enemy : MonoBehaviour
 
     protected float currentHealth;
     
-    protected bool canTakeDamage = true; // flag for iframe during red flash 
+    protected bool canTakeDamage = true;  
     protected bool hasDied = false;
     
 
-    protected virtual void Start()
-    {
+    protected virtual void Start(){
         initialPosition = transform.position;
         currentHealth = maxHealth;
-
-        // find the player by tag (can't assign player transform in the inspector due to enemies being prefabs)
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         playerRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>(); 
 
-
-        if (playerTransform == null)
-        {
+        if (playerTransform == null){
             Debug.LogError("Player GameObject not found! Make sure the player has a tag 'Player'.");
         }
 
@@ -46,16 +41,13 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>(); 
     }
 
-    protected virtual void Update()
-    {
+    protected virtual void Update(){
         FlyTowardsPlayer();
     }
 
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
-    {
+    protected virtual void OnCollisionEnter2D(Collision2D collision){
         QuonkController player = collision.gameObject.GetComponent<QuonkController>();
-        if (player != null)
-        {
+        if (player != null){
             player.TakeDamage(damageOnCollide);
             Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
             playerRb.AddForce(-directionToPlayer * playerPushbackForce);
@@ -64,15 +56,11 @@ public class Enemy : MonoBehaviour
     }
 
 
-    protected virtual void FlyTowardsPlayer()
-    {
-        if (playerTransform != null)
-        {
-
+    protected virtual void FlyTowardsPlayer(){
+        if (playerTransform != null){
             Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
-
-            // bobbing motion logic
-            float bobbingOffset = Mathf.Sin(Time.time * bobbingSpeed) * bobbingAmount;
+           
+            float bobbingOffset = Mathf.Sin(Time.time * bobbingSpeed) * bobbingAmount; // bobbing motion logic
             Vector2 bobbingMovement = Vector2.up * bobbingOffset;
 
             Vector2 movementVector = (directionToPlayer + bobbingMovement).normalized;
@@ -80,23 +68,19 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
-    {
+    public void TakeDamage(float damage){
         currentHealth -= damage;
         StartCoroutine(ShowDamageFlash());
 
-        if (currentHealth <= 0f)
-        {
+        if (currentHealth <= 0f){
             Die();
         }
     }
 
 
-    protected virtual void Die()
-    {
+    protected virtual void Die(){
 
-        if (hasDied == true)
-        {
+        if (hasDied == true){
             return; // prevents Die() from being called multiple times if multiple projectiles kill one enemy at the same time (eg, from the shotgun)
         }
 
@@ -113,8 +97,7 @@ public class Enemy : MonoBehaviour
 
     }
 
-    protected IEnumerator ShowDamageFlash()
-    {
+    protected IEnumerator ShowDamageFlash(){
         canTakeDamage = false;
         spriteRenderer.color = damageColor;
         yield return new WaitForSeconds(damageFlashDuration);
