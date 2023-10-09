@@ -10,14 +10,12 @@ public class GameTimer : MonoBehaviour
 
     private float timer;
 
-    private void Start()
-    {
+    private void Start(){
         timer = 0f;
         UpdateTimerText();
     }
 
-    private void Update()
-    {
+    private void Update(){
         if (GameManager.Instance.playerHasDied == false)
         {
             timer += Time.deltaTime;
@@ -25,8 +23,7 @@ public class GameTimer : MonoBehaviour
         }
     }
 
-    private void UpdateTimerText()
-    {
+    private void UpdateTimerText(){
         int minutes = Mathf.FloorToInt(timer / 60f);
         int seconds = Mathf.FloorToInt(timer % 60f);
 

@@ -171,9 +171,9 @@ GameObject:
   m_Component:
   - component: {fileID: 38201100}
   - component: {fileID: 38201101}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (7)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,9 +354,9 @@ GameObject:
   m_Component:
   - component: {fileID: 79963754}
   - component: {fileID: 79963755}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (5)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,9 +698,9 @@ GameObject:
   m_Component:
   - component: {fileID: 211690730}
   - component: {fileID: 211690731}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround (5)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 249527598}
   m_Layer: 6
   m_Name: SpawnPointsAir
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1483,9 +1483,9 @@ GameObject:
   m_Component:
   - component: {fileID: 443889454}
   - component: {fileID: 443889455}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround (1)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1723,6 +1723,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 31811404}
+  - {fileID: 576054468}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2106,7 +2107,7 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
@@ -2156,9 +2157,9 @@ MonoBehaviour:
   - {fileID: 1212144775}
   - {fileID: 38201100}
   - {fileID: 834237007}
-  spawnInterval: 3
+  spawnInterval: 5
   spawnIntervalDecrement: 0.05
-  minSpawnInterval: 0.5
+  minSpawnInterval: 3
 --- !u!4 &489559145
 Transform:
   m_ObjectHideFlags: 0
@@ -2370,7 +2371,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 16375
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2412,6 +2413,106 @@ MonoBehaviour:
   cam: {fileID: 519420031}
   cameraTarget: {fileID: 466696165}
   cameraSmoothnessFactor: 0.125
+--- !u!1 &576054467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576054468}
+  - component: {fileID: 576054470}
+  - component: {fileID: 576054469}
+  m_Layer: 7
+  m_Name: EnemyPresenceIndicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576054468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576054467}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.51875, y: 0.1734375, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 466696165}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!212 &576054469
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576054467}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &576054470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576054467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04d119f49189a6419ad463fe8943992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivotPoint: {fileID: 466696165}
+  indicatorRenderer: {fileID: 576054469}
+  rotationRadius: 3
 --- !u!1 &587358697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,9 +3681,9 @@ GameObject:
   m_Component:
   - component: {fileID: 774259493}
   - component: {fileID: 774259494}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround (3)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3831,9 +3932,9 @@ GameObject:
   m_Component:
   - component: {fileID: 834237007}
   - component: {fileID: 834237008}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (8)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5461,9 +5562,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1169285198}
   - component: {fileID: 1169285199}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5545,9 +5646,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1212144775}
   - component: {fileID: 1212144776}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (6)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5664,9 +5765,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1264505292}
   - component: {fileID: 1264505293}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (3)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6436,9 +6537,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1491171708}
   - component: {fileID: 1491171709}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (1)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7681,9 +7782,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1731325519}
   - component: {fileID: 1731325520}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround (2)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8025,9 +8126,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1826118767}
   - component: {fileID: 1826118768}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8955,9 +9056,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2107922418}
   - component: {fileID: 2107922419}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnGround (4)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9039,9 +9140,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2108944331}
   - component: {fileID: 2108944332}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (2)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9123,9 +9224,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2115313598}
   - component: {fileID: 2115313599}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: EnemySpawnPointAir (4)
-  m_TagString: Untagged
+  m_TagString: EnemySpawners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

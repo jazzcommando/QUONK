@@ -16,63 +16,51 @@ public class Rocket : MonoBehaviour
 
     private AudioSource rocketAudioSource;
 
-    void Start()
-    {
+    void Start(){
         Destroy(gameObject, 6f);
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rocketAudioSource = GetComponent<AudioSource>();
 
-        if (explodeTimer > 0)
-        {
+        if (explodeTimer > 0){
             StartCoroutine(StartExplodeTimer());
         }
 
-        if (angularVelocity == 0)
-        {
+        if (angularVelocity == 0){
             rb.freezeRotation = true; // Rockets (freeze rot)
         }
-        else
-        {
+        else{
             rb.angularVelocity = angularVelocity; // Grenades (needs to SPEEN)
         }
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (explodeOnContactGround && collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
-        {
+    private void OnCollisionEnter2D(Collision2D collision){
+        if (explodeOnContactGround && collision.gameObject.layer == LayerMask.NameToLayer("Ground")){
             Explode();
         }
 
-        if (explodeOnContactEnemies && collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
-        {
+        if (explodeOnContactEnemies && collision.gameObject.layer == LayerMask.NameToLayer("Enemy")){
             Explode();
         }
 
-        if (enableSoundOnBounce && rocketAudioSource != null && collision.relativeVelocity.magnitude > 2f)
-        {
+        if (enableSoundOnBounce && rocketAudioSource != null && collision.relativeVelocity.magnitude > 2f){
             AudioSource.PlayClipAtPoint(bounceSound, (transform.position), 1f);
             // PlayClipAtPoint() creates an audio source and destroys it once the sound is over,
             // this makes it so that the bounce sound doesn't abruptly stop once the grenade has exploded
         }
     }
 
-    private void Explode()
-    {
+    private void Explode(){
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
-    IEnumerator StartExplodeTimer()
-    {
-        while (explodeTimer > 0)
-        {
+    IEnumerator StartExplodeTimer(){
+        while (explodeTimer > 0){
             yield return new WaitForSeconds(1f);
             explodeTimer--;
 
-            if (explodeTimer <= 0)
-            {
+            if (explodeTimer <= 0){
                 Explode();
             }
         }
